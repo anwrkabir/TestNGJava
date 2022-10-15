@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" >
+
+
+    <listeners>
+        <listener class-name="TestNGTutorial.Listener"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/mksaf/Documents/Learning Java and Selenium/SeleniumFramework_shetty">
+        <parameter name="URL" value="abc.com"/>
+        <parameter name="USERNAME" value="MKabir"/>
+
+        <classes>
+            <class name="TestNGTutorial.day1">
+                <methods>
+                    <include name="demo.*"/>
+
+                    <include name="parmeterMethod"/>
+
+                </methods>
+            </class>
+
+            <class name="TestNGTutorial.day2">
+                <methods>
+                    <include name="carLoan"/>
+                    <include name="homeloan"/>
+                    <include name="prerequisite2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="SecondTest">
+        <parameter name="Piano" value="Mozart"></parameter>
+        <classes>
+            <class name="TestNGTutorial.day3">
+                <methods>
+                    <include name="LearnJava"/>
+                    <include name="LearnSelenium"/>
+                    <include name="LearnAutomation"/>
+                    <include name="practiceDataProvider"/>
+                    <include name="retrieveDataProvider"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
