@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b81f2e-5ccb-4541-a96b-45f5e56b780a" name="Default Changelist" comment="" />
+    <list default="true" id="27b81f2e-5ccb-4541-a96b-45f5e56b780a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PracticeXpath/xpathAxe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNGTutorial/day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNGTutorial/day1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestNGTutorial/TestClass.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +43,19 @@
   }
 }</component>
   <component name="RunManager" selected="TestNG.day1.parmeterMethod">
+    <configuration name="xpathAxe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeXpath.xpathAxe" />
+      <module name="SeleniumFramework_shetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticeXpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionalTesting" type="TestNG">
       <module name="SeleniumFramework_shetty" />
       <useClassPathOnly />
@@ -77,6 +96,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day1.demo1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFramework_shetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNGTutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNGTutorial" />
+      <option name="MAIN_CLASS_NAME" value="TestNGTutorial.day1" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="day1.parmeterMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework_shetty" />
       <extension name="coverage">
@@ -95,14 +132,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day2.carLoan" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFramework_shetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNGTutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNGTutorial" />
+      <option name="MAIN_CLASS_NAME" value="TestNGTutorial.day2" />
+      <option name="METHOD_NAME" value="carLoan" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day3.LearnAutomation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFramework_shetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNGTutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNGTutorial" />
+      <option name="MAIN_CLASS_NAME" value="TestNGTutorial.day3" />
+      <option name="METHOD_NAME" value="LearnAutomation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.xpathAxe" />
       <item itemvalue="TestNG.FunctionalTesting" />
       <item itemvalue="TestNG.Regression" />
+      <item itemvalue="TestNG.day1.demo1" />
+      <item itemvalue="TestNG.day2.carLoan" />
+      <item itemvalue="TestNG.day3.LearnAutomation" />
       <item itemvalue="TestNG.day1.parmeterMethod" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.day1.parmeterMethod" />
+        <item itemvalue="Application.xpathAxe" />
+        <item itemvalue="TestNG.day3.LearnAutomation" />
+        <item itemvalue="TestNG.day2.carLoan" />
+        <item itemvalue="TestNG.day1.demo1" />
       </list>
     </recent_temporary>
   </component>

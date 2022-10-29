@@ -16,7 +16,6 @@ public class day1 {
     }
 
 
-    @BeforeMethod
     public void demo7(){
         System.out.println("From day 1");
         System.out.println("Before method<@Before Method>");
